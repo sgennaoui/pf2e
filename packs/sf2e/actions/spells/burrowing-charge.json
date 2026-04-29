@@ -1,8 +1,8 @@
 {
-    "_id": "lDfffQX5QYWnNVA6",
+    "_id": "Item.7yLIUg2fqyn1GPYt",
     "folder": "03q1RFVyw2oVh0F7",
-    "img": "systems/sf2e/icons/actions/ThreeActions.webp",
-    "name": "Phasic Flurry",
+    "img": "systems/sf2e/icons/actions/TwoActions.webp",
+    "name": "Burrowing Charge",
     "system": {
         "actionType": {
             "value": "action"
@@ -12,7 +12,7 @@
         },
         "category": "offensive",
         "description": {
-            "value": "<p>You Stride up to your Speed, then make a phasic blade Strike against each creature within reach. Each attack counts toward your multiple attack penalty, but don't increase the penalty until all these attacks have been made.</p>"
+            "value": "<p>You Burrow up to twice your burrow Speed, then @UUID[Compendium.sf2e.actions.Item.Leap] vertically up to 25 feet high, making a stinger Strike against a creature at any point during the jump. After the Leap, you fall to the ground, but take no damage from the fall if you land on dirt or sand.</p>"
         },
         "publication": {
             "license": "ORC",
@@ -22,8 +22,7 @@
         "rules": [],
         "traits": {
             "value": [
-                "move",
-                "traversal"
+                "move"
             ]
         }
     },
