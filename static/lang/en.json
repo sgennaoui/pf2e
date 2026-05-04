@@ -327,6 +327,7 @@
                 },
                 "CriticalSpecialization": "Critical Specialization",
                 "Language": {
+                    "acsie": "Acsie",
                     "aballonian": "Aballonian",
                     "adlet": "Adlet",
                     "aishmayar": "Aishmayar",
@@ -352,6 +353,7 @@
                     "common": "Common",
                     "CommonLanguage": "Common ({language})",
                     "copaxi": "Copaxi",
+                    "coshyco": "Coshyco",
                     "cyclops": "Cyclops",
                     "daemonic": "Daemonic",
                     "destrachan": "Destrachan",
@@ -4637,6 +4639,7 @@
         "TraitContract": "Contract",
         "TraitCopaxi": "Copaxi",
         "TraitCorpsefolk": "Corpsefolk",
+        "TraitCoshyco": "Coshyco",
         "TraitCosmic": "Cosmic",
         "TraitCouatl": "Coatl",
         "TraitCriticalBrawling": "Critical (Brawling)",
