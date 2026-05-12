@@ -359,6 +359,28 @@ class WeaponDamagePF2e {
             modifiers.push(modifier);
         }
 
+        // Boost trait
+        if (weapon.system.traits.config.boost) {
+            const boostConfig = weapon.system.traits.config.boost;
+            const slug = `boost-${boostConfig}`;
+
+            const dieSize = boostConfig.substring(boostConfig.indexOf("d")) as DamageDieSize;
+            const baseNumber = Number(/(\d)d\d{1,2}$/.exec(boostConfig)?.at(1)) || 1;
+            const diceNumber = strikingDice > 0 ? baseNumber + strikingDice : baseNumber;
+
+            damageDice.push(
+                new DamageDicePF2e({
+                    selector: `${weapon.id}-damage`,
+                    slug,
+                    label: traitLabels[slug],
+                    diceNumber: diceNumber,
+                    dieSize,
+                    critical: false,
+                    enabled: options.has(`item:boosted:${weapon.id}`),
+                }),
+            );
+        }
+
         // Add roll notes to the context
         const runeNotes = propertyRunes.flatMap((r) => {
             const data = RUNE_DATA.weapon.property[r].damage?.notes ?? [];
