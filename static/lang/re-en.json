@@ -2604,6 +2604,17 @@
                     }
                 }
             },
+            "Scamp": {
+                "FastHealing": {
+                    "AirLabel": "While in Open Air",
+                    "EarthLabel": "While Underground",
+                    "FireLabel": "While Touching Fire",
+                    "MetalLabel": "While Touching Metal",
+                    "ShadowLabel": "While in Shadow", 
+                    "WaterLabel": "While Underwater",
+                    "WoodLabel": "While Touching Plants or Trees"
+                }
+            },
             "Scroungefeather": {
                 "GrabDebris": {
                     "BrokenBlade": "Broken Blade",
