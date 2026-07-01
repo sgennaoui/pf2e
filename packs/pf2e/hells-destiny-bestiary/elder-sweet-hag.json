@@ -1785,7 +1785,7 @@
                 "damageRolls": {
                     "7c24LQj9D0ihkR8F": {
                         "damage": "2d12+10",
-                        "damageType": "piercing"
+                        "damageType": "slashing"
                     }
                 },
                 "description": {

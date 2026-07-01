@@ -1,11 +1,11 @@
 {
-    "_id": "Xd3vwXHxGYrFB43X",
+    "_id": "1y6sYotLFK9UxFAo",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
         {
-            "_id": "gXuqr7d3xBUgfDZM",
+            "_id": "89LVXnKBiV7MWjOC",
             "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
-            "name": "Champion Devotion Spells",
+            "name": "Divine Focus Spells",
             "sort": 100000,
             "system": {
                 "autoHeightenLevel": {
@@ -21,8 +21,8 @@
                     "value": 1
                 },
                 "publication": {
-                    "license": "OGL",
-                    "remaster": false,
+                    "license": "ORC",
+                    "remaster": true,
                     "title": ""
                 },
                 "rules": [],
@@ -40,11 +40,7 @@
             "type": "spellcastingEntry"
         },
         {
-            "_id": "U7Io2uiysXA8mfaS",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.spells-srd.Item.USM530HlzZ1RMd99"
-            },
-            "folder": "wnvibtD90h7CStDC",
+            "_id": "loaCjigfjEKm6BKk",
             "img": "systems/pf2e/icons/spells/champions-sacrifice.webp",
             "name": "Champion's Sacrifice",
             "sort": 200000,
@@ -67,7 +63,7 @@
                     "value": 6
                 },
                 "location": {
-                    "value": "gXuqr7d3xBUgfDZM"
+                    "value": "89LVXnKBiV7MWjOC"
                 },
                 "publication": {
                     "license": "ORC",
@@ -99,10 +95,7 @@
             "type": "spell"
         },
         {
-            "_id": "fdARfHfMTbQXmSZD",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.spells-srd.Item.jFmWSIpJGGebim6y"
-            },
+            "_id": "xE4xkc2PydH1DdWs",
             "folder": "wnvibtD90h7CStDC",
             "img": "systems/pf2e/icons/spells/touch-of-corruption.webp",
             "name": "Touch of the Void",
@@ -126,7 +119,7 @@
                     "value": 1
                 },
                 "location": {
-                    "value": "gXuqr7d3xBUgfDZM"
+                    "value": "89LVXnKBiV7MWjOC"
                 },
                 "overlays": {
                     "2a6Vm4mIjBgrzlO2": {
@@ -219,10 +212,7 @@
             "type": "spell"
         },
         {
-            "_id": "qhsAVrFXCHHjuZpu",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.equipment-srd.Item.62nnVQvGhoVLLl2K"
-            },
+            "_id": "6URQFLHBgR1euSSx",
             "img": "icons/weapons/crossbows/crossbow-simple-brown.webp",
             "name": "Crossbow",
             "sort": 400000,
@@ -309,16 +299,13 @@
             "type": "weapon"
         },
         {
-            "_id": "6clyhXYmBpB9Lmjt",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.equipment-srd.Item.9iDqOLNFKxiTcFKE"
-            },
-            "img": "icons/weapons/maces/mace-flanged-steel.webp",
-            "name": "Mace",
+            "_id": "LEZNlQLiUe20ApXt",
+            "img": "icons/weapons/swords/sword-guard-blue.webp",
+            "name": "Longsword",
             "sort": 500000,
             "system": {
                 "ammo": null,
-                "baseItem": "mace",
+                "baseItem": "longsword",
                 "bonus": {
                     "value": 0
                 },
@@ -328,15 +315,15 @@
                 "bulk": {
                     "value": 1
                 },
-                "category": "simple",
+                "category": "martial",
                 "containerId": null,
                 "damage": {
-                    "damageType": "bludgeoning",
+                    "damageType": "slashing",
                     "dice": 1,
-                    "die": "d6"
+                    "die": "d8"
                 },
                 "description": {
-                    "value": "<p>With a stout haft and a heavy metal head, a mace is sturdy and allows its wielder to deliver powerful blows and dent armor.</p>"
+                    "value": "<p>Longswords, also known as arming swords, can be one-edged or two-edged swords. Their blades are heavy and they're between 3 and 4 feet in length.</p>"
                 },
                 "equipped": {
                     "carryType": "held",
@@ -345,7 +332,7 @@
                 },
                 "expend": null,
                 "grade": null,
-                "group": "club",
+                "group": "sword",
                 "hardness": 0,
                 "hp": {
                     "max": 0,
@@ -368,10 +355,10 @@
                     "remaster": true,
                     "title": "Pathfinder Player Core"
                 },
-                "quantity": 0,
+                "quantity": 1,
                 "range": null,
                 "reload": {
-                    "value": null
+                    "value": "-"
                 },
                 "rules": [],
                 "runes": {
@@ -380,27 +367,25 @@
                     "striking": 1
                 },
                 "size": "med",
-                "slug": "mace",
+                "slug": "longsword",
                 "splashDamage": {
                     "value": 0
                 },
                 "traits": {
                     "rarity": "common",
                     "value": [
-                        "shove"
+                        "versatile-p"
                     ]
                 },
                 "usage": {
+                    "canBeAmmo": false,
                     "value": "held-in-one-hand"
                 }
             },
             "type": "weapon"
         },
         {
-            "_id": "OIEIFC05bU5Eeovh",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB"
-            },
+            "_id": "kHgkLl0epnmIVXSm",
             "img": "systems/pf2e/icons/equipment/shields/steel-shield.webp",
             "name": "Steel Shield",
             "sort": 600000,
@@ -444,7 +429,7 @@
                 "quantity": 1,
                 "rules": [],
                 "runes": {
-                    "reinforcing": 0
+                    "reinforcing": 3
                 },
                 "size": "med",
                 "slug": "steel-shield",
@@ -458,10 +443,7 @@
             "type": "shield"
         },
         {
-            "_id": "GLrD6BMuX1GHktyi",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p"
-            },
+            "_id": "58TO3Pk4uctZ6Wxm",
             "img": "icons/equipment/chest/breastplate-layered-steel-green.webp",
             "name": "Full Plate",
             "sort": 700000,
@@ -480,6 +462,8 @@
                 "dexCap": 0,
                 "equipped": {
                     "carryType": "worn",
+                    "handsHeld": 0,
+                    "inSlot": true,
                     "invested": null
                 },
                 "grade": null,
@@ -527,12 +511,9 @@
             "type": "armor"
         },
         {
-            "_id": "XfiLlTHJyat9FkHC",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.equipment-srd.Item.upzjwQ96cZG0Xlmx"
-            },
+            "_id": "5TQeQrqXDNi7WrEX",
             "img": "systems/pf2e/icons/equipment/adventuring-gear/religious-symbol-silver.webp",
-            "name": "Religious Symbol (Silver)",
+            "name": "Religious Symbol of Asmodeus",
             "sort": 800000,
             "system": {
                 "baseItem": null,
@@ -590,15 +571,293 @@
             "type": "equipment"
         },
         {
-            "_id": "STbQBDEmYwTGN7tn",
+            "_id": "0EIjcVK9oMONqAKX",
+            "img": "systems/pf2e/icons/equipment/consumables/potions/potion-of-flying.webp",
+            "name": "Potion of Flying (Standard)",
+            "sort": 900000,
+            "system": {
+                "baseItem": null,
+                "bulk": {
+                    "value": 0.1
+                },
+                "category": "potion",
+                "containerId": null,
+                "damage": null,
+                "description": {
+                    "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Upon drinking this effervescent concoction, you gain a fly Speed of 40 feet for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Effect: Potion of Flying (Standard)]</p>"
+                },
+                "equipped": {
+                    "carryType": "worn"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 8
+                },
+                "material": {
+                    "grade": null,
+                    "type": null
+                },
+                "price": {
+                    "value": {
+                        "gp": 100
+                    }
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder GM Core"
+                },
+                "quantity": 1,
+                "rules": [],
+                "size": "med",
+                "slug": "potion-of-flying-standard",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "consumable",
+                        "magical",
+                        "potion"
+                    ]
+                },
+                "usage": {
+                    "value": "held-in-one-hand"
+                },
+                "uses": {
+                    "autoDestroy": true,
+                    "max": 1,
+                    "value": 1
+                }
+            },
+            "type": "consumable"
+        },
+        {
+            "_id": "gN7pHXO9N3RwzM3R",
+            "img": "systems/pf2e/icons/equipment/consumables/talismans/vipers-fang.webp",
+            "name": "Viper's Fang",
+            "sort": 1000000,
+            "system": {
+                "baseItem": null,
+                "bulk": {
+                    "value": 0
+                },
+                "category": "talisman",
+                "containerId": null,
+                "damage": null,
+                "description": {
+                    "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> (concentrate)</p>\n<p><strong>Trigger</strong> A creature within your reach uses a manipulate or move action, makes a ranged attack, or leaves a square during a moving action it's using</p>\n<p><strong>Requirements</strong> You are a master with the affixed weapon</p><hr /><p>When you activate this resin-strengthened viper skull, make a melee Strike against the triggering creature.</p>\n<p>If you have Reactive Strike, you can activate the <em>viper's fang</em> as a free action.</p>\n<p>If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action.</p>\n<p>This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p><hr /><p>If you hit with this attack, the creature is exposed to viper fang venom.</p>\n<p><strong>Viper Fang Venom</strong> (poison)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:32]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> @Damage[3d10[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1}.</p>"
+                },
+                "equipped": {
+                    "carryType": "worn"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 14
+                },
+                "material": {
+                    "grade": null,
+                    "type": null
+                },
+                "price": {
+                    "per": 1,
+                    "value": {
+                        "gp": 850
+                    }
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder GM Core"
+                },
+                "quantity": 1,
+                "rules": [],
+                "size": "med",
+                "slug": "vipers-fang",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "consumable",
+                        "magical",
+                        "talisman"
+                    ]
+                },
+                "usage": {
+                    "value": "affixed-to-weapon"
+                },
+                "uses": {
+                    "autoDestroy": true,
+                    "max": 1,
+                    "value": 1
+                }
+            },
+            "type": "consumable"
+        },
+        {
+            "_id": "mEFBVjJWcm64JBLI",
+            "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
+            "name": "Bolts",
+            "sort": 1100000,
+            "system": {
+                "baseItem": "bolts",
+                "bulk": {
+                    "value": 0.1
+                },
+                "containerId": null,
+                "craftableAs": null,
+                "description": {
+                    "value": "<p>Shorter than traditional arrows but similar in construction, bolts are the ammunition used by crossbows.</p>"
+                },
+                "equipped": {
+                    "carryType": "worn"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "material": {
+                    "grade": null,
+                    "type": null
+                },
+                "price": {
+                    "per": 10,
+                    "value": {
+                        "sp": 1
+                    }
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Player Core"
+                },
+                "quantity": 20,
+                "rules": [],
+                "size": "med",
+                "slug": "bolts",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "consumable"
+                    ]
+                },
+                "uses": {
+                    "autoDestroy": true,
+                    "max": 1,
+                    "value": 1
+                }
+            },
+            "type": "ammo"
+        },
+        {
+            "_id": "xTsD2dkttoFCJQum",
             "flags": {
                 "pf2e": {
-                    "linkedWeapon": "qhsAVrFXCHHjuZpu"
+                    "linkedWeapon": "LEZNlQLiUe20ApXt"
+                }
+            },
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Longsword",
+            "sort": 1200000,
+            "system": {
+                "action": "strike",
+                "area": null,
+                "attackEffects": {
+                    "value": []
+                },
+                "bonus": {
+                    "value": 26
+                },
+                "damageRolls": {
+                    "YD8gn2k2dMG9Cd4S": {
+                        "damage": "2d8+13",
+                        "damageType": "slashing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": ""
+                },
+                "range": null,
+                "rules": [],
+                "slug": "longsword",
+                "subjectToMAP": true,
+                "traits": {
+                    "config": {},
+                    "value": [
+                        "magical",
+                        "versatile-p"
+                    ]
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "GmXn5uf6Ce5Affe3",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Fist",
+            "sort": 1300000,
+            "system": {
+                "action": "strike",
+                "area": null,
+                "attackEffects": {
+                    "value": []
+                },
+                "bonus": {
+                    "value": 25
+                },
+                "damageRolls": {
+                    "lW7No3VmajHHzKSA": {
+                        "damage": "1d4+13",
+                        "damageType": "bludgeoning"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": ""
+                },
+                "range": null,
+                "rules": [],
+                "slug": null,
+                "subjectToMAP": true,
+                "traits": {
+                    "config": {},
+                    "value": [
+                        "agile",
+                        "nonlethal",
+                        "unarmed"
+                    ]
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "d5qzJAalGbOrtDQa",
+            "flags": {
+                "pf2e": {
+                    "linkedWeapon": "6URQFLHBgR1euSSx"
                 }
             },
             "img": "systems/pf2e/icons/default-icons/melee.svg",
             "name": "Crossbow",
-            "sort": 900000,
+            "sort": 1400000,
             "system": {
                 "action": "strike",
                 "area": null,
@@ -609,7 +868,7 @@
                     "value": 23
                 },
                 "damageRolls": {
-                    "VUmETWKlrglKVeTE": {
+                    "8HjzUojzLJVcduuS": {
                         "damage": "2d8+5",
                         "damageType": "piercing"
                     }
@@ -618,8 +877,8 @@
                     "value": ""
                 },
                 "publication": {
-                    "license": "OGL",
-                    "remaster": false,
+                    "license": "ORC",
+                    "remaster": true,
                     "title": ""
                 },
                 "range": {
@@ -640,100 +899,10 @@
             "type": "melee"
         },
         {
-            "_id": "qOI6QjMLABp28a1O",
-            "flags": {
-                "pf2e": {
-                    "linkedWeapon": "6clyhXYmBpB9Lmjt"
-                }
-            },
-            "img": "systems/pf2e/icons/default-icons/melee.svg",
-            "name": "Mace",
-            "sort": 1000000,
-            "system": {
-                "action": "strike",
-                "area": null,
-                "attackEffects": {
-                    "value": []
-                },
-                "bonus": {
-                    "value": 26
-                },
-                "damageRolls": {
-                    "PM3BoXTrd8UIPQL4": {
-                        "damage": "2d8+13",
-                        "damageType": "bludgeoning"
-                    }
-                },
-                "description": {
-                    "value": ""
-                },
-                "publication": {
-                    "license": "OGL",
-                    "remaster": false,
-                    "title": ""
-                },
-                "range": null,
-                "rules": [],
-                "slug": "mace",
-                "subjectToMAP": true,
-                "traits": {
-                    "config": {},
-                    "value": [
-                        "magical",
-                        "shove"
-                    ]
-                }
-            },
-            "type": "melee"
-        },
-        {
-            "_id": "cc2eFYOEFNr83Ztg",
-            "img": "systems/pf2e/icons/default-icons/melee.svg",
-            "name": "Kick",
-            "sort": 1100000,
-            "system": {
-                "action": "strike",
-                "area": null,
-                "attackEffects": {
-                    "value": []
-                },
-                "bonus": {
-                    "value": 25
-                },
-                "damageRolls": {
-                    "VnhFbveDsy8qlVyU": {
-                        "damage": "1d4+13",
-                        "damageType": "bludgeoning"
-                    }
-                },
-                "description": {
-                    "value": ""
-                },
-                "publication": {
-                    "license": "OGL",
-                    "remaster": false,
-                    "title": ""
-                },
-                "range": null,
-                "rules": [],
-                "slug": null,
-                "subjectToMAP": true,
-                "traits": {
-                    "config": {},
-                    "value": [
-                        "agile",
-                        "nonlethal",
-                        "unarmed"
-                    ]
-                }
-            },
-            "type": "melee"
-        },
-        {
-            "_id": "NXz6hYS0vWRtTAvu",
+            "_id": "raqxmRxswaqs6DAA",
             "img": "systems/pf2e/icons/actions/Passive.webp",
-            "name": "Unholy Shield",
-            "sort": 1200000,
+            "name": "Blessed Shield",
+            "sort": 1500000,
             "system": {
                 "actionType": {
                     "value": "passive"
@@ -743,35 +912,14 @@
                 },
                 "category": "interaction",
                 "description": {
-                    "value": "<p>In Obrimar's hands, his shield gains the <em>@UUID[Compendium.pf2e.equipment-srd.Item.Reinforcing Rune (Moderate)]{moderate reinforcing}</em> rune, giving it Hardness 8, 84 HP, and BT 42.</p>"
+                    "value": "<p>In the deific champion's hands, a shield gains the <em>@UUID[Compendium.pf2e.equipment-srd.Item.Reinforcing Rune (Moderate)]{moderate reinforcing rune}</em>, giving it Hardness 8, 84 HP, and BT 42.</p>"
                 },
                 "publication": {
-                    "license": "OGL",
-                    "remaster": false,
+                    "license": "ORC",
+                    "remaster": true,
                     "title": ""
                 },
-                "rules": [
-                    {
-                        "itemType": "shield",
-                        "key": "ItemAlteration",
-                        "mode": "add",
-                        "predicate": [
-                            "item:equipped"
-                        ],
-                        "property": "hardness",
-                        "value": 3
-                    },
-                    {
-                        "itemType": "shield",
-                        "key": "ItemAlteration",
-                        "mode": "add",
-                        "predicate": [
-                            "item:equipped"
-                        ],
-                        "property": "hp-max",
-                        "value": 64
-                    }
-                ],
+                "rules": [],
                 "slug": null,
                 "traits": {
                     "value": []
@@ -780,10 +928,39 @@
             "type": "action"
         },
         {
-            "_id": "K0lqPCP4KXO23hvo",
+            "_id": "en9fScCzZTAo4OaI",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Deific Reactions",
+            "sort": 1600000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>At the start of each of their turns, the deific champion gains an additional reaction they can only use to make a Reactive Strike or to Shield Block.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": ""
+                },
+                "rules": [],
+                "slug": null,
+                "traits": {
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "ixoazJ1epK2jCK7H",
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Champion's Aura",
-            "sort": 1300000,
+            "sort": 1700000,
             "system": {
                 "actionType": {
                     "value": "passive"
@@ -793,16 +970,32 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>15 feet.</p>\n<p>Any follower of Asmodeus in the aura knows Obrimar is a champion of Asmodeus. At the end of Obrimar's turn, each ally in the aura reduces their frightened value by 1. The aura can be suppressed or resumed with a single action, which has the concentrate trait, and ends if Obrimar falls @UUID[Compendium.pf2e.conditionitems.Item.Unconscious].</p>"
+                    "value": "<p>15 feet. Any follower of @UUID[Compendium.pf2e.deities.Item.Asmodeus] in the aura knows the champion is a champion of Asmodeus. Enemies in the champion's aura take a –1 circumstance penalty to saving throws against fear. In addition, an enemy that ends its turn in the champion's aura can't reduce the value of its frightened condition below 1.</p>"
                 },
                 "publication": {
-                    "license": "OGL",
-                    "remaster": false,
+                    "license": "ORC",
+                    "remaster": true,
                     "title": ""
                 },
                 "rules": [
                     {
+                        "key": "RollOption",
+                        "option": "champions-aura",
+                        "toggleable": true,
+                        "value": true
+                    },
+                    {
+                        "effects": [
+                            {
+                                "affects": "enemies",
+                                "includesSelf": true,
+                                "uuid": "Compendium.pf2e.bestiary-effects.Item.Effect: Champion's Aura (Champion of Asmodeus)"
+                            }
+                        ],
                         "key": "Aura",
+                        "predicate": [
+                            "champions-aura"
+                        ],
                         "radius": 15,
                         "traits": [
                             "divine"
@@ -820,10 +1013,39 @@
             "type": "action"
         },
         {
-            "_id": "pzI1R4tR7znpfU4z",
+            "_id": "AvhDj66mr2YhqJwo",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Champion's Courage",
+            "sort": 1800000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "defensive",
+                "description": {
+                    "value": "<p>When the champion becomes @UUID[Compendium.pf2e.conditionitems.Item.Frightened], they reduce the condition value by 1 (to a minimum of 0).</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": ""
+                },
+                "rules": [],
+                "slug": null,
+                "traits": {
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "D3y75ASOT2d7kylq",
             "img": "systems/pf2e/icons/actions/Reaction.webp",
-            "name": "Exalted Iron Command",
-            "sort": 1400000,
+            "name": "Exalted Retributive Strike",
+            "sort": 1900000,
             "system": {
                 "actionType": {
                     "value": "reaction"
@@ -833,114 +1055,28 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p><strong>Trigger</strong> An enemy in Obrimar's champion's aura damages him</p><hr /><p><strong>Effect</strong> The creature that damaged Obrimar can choose to drop @UUID[Compendium.pf2e.conditionitems.Item.Prone] as a free action. If it refuses, it takes @Damage[4d6[mental]] damage and 4 persistent spirit damage. All other enemies within Obrimar's champion's aura must also drop prone as a free action or else take @Damage[4[mental]] damage if they refuse.</p>"
+                    "value": "<p><strong>Trigger</strong> An enemy damages the deific champion's ally, and both are in the deific champion's aura</p><hr /><p><strong>Effect</strong> The ally gains resistance 14 to all damage against the triggering damage. If the enemy is within reach, the deific champion makes a melee Strike against it. Each ally in the champion's aura can spend a reaction to Strike the target with a –5 penalty.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Exalted Retributive Strike]</p>"
                 },
                 "publication": {
-                    "license": "OGL",
-                    "remaster": false,
+                    "license": "ORC",
+                    "remaster": true,
                     "title": ""
                 },
                 "rules": [],
                 "slug": null,
                 "traits": {
-                    "value": []
+                    "value": [
+                        "divine"
+                    ]
                 }
             },
             "type": "action"
         },
         {
-            "_id": "z0yJB7IHEHrqf3Rt",
-            "img": "systems/pf2e/icons/actions/Passive.webp",
-            "name": "Infernal Courage",
-            "sort": 1500000,
-            "system": {
-                "actionType": {
-                    "value": "passive"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "defensive",
-                "description": {
-                    "value": "<p>When Obrimar becomes frightened, he reduces the condition value by 1 (to a minimum of 0).</p>"
-                },
-                "publication": {
-                    "license": "OGL",
-                    "remaster": false,
-                    "title": ""
-                },
-                "rules": [],
-                "slug": null,
-                "traits": {
-                    "value": []
-                }
-            },
-            "type": "action"
-        },
-        {
-            "_id": "B5vegvxKdbmK16d2",
-            "img": "systems/pf2e/icons/actions/Passive.webp",
-            "name": "Infernal Reactions",
-            "sort": 1600000,
-            "system": {
-                "actionType": {
-                    "value": "passive"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "defensive",
-                "description": {
-                    "value": "<p>At the start of each of his turns, Obrimar gains an additional reaction that he can only use to make a Reactive Strike or Shield Block.</p>"
-                },
-                "publication": {
-                    "license": "OGL",
-                    "remaster": false,
-                    "title": ""
-                },
-                "rules": [],
-                "slug": null,
-                "traits": {
-                    "value": []
-                }
-            },
-            "type": "action"
-        },
-        {
-            "_id": "cZsGawGFBiJpM9j8",
-            "img": "systems/pf2e/icons/actions/FreeAction.webp",
-            "name": "Never Fall",
-            "sort": 1700000,
-            "system": {
-                "actionType": {
-                    "value": "free"
-                },
-                "actions": {
-                    "value": null
-                },
-                "category": "defensive",
-                "deathNote": true,
-                "description": {
-                    "value": "<p><strong>Trigger</strong> Obrimar's Hit Points are reduced to 0 for the first time that day</p><hr /><p><strong>Effect</strong> Obrimar refuses to give up his soul to Asmodeus just yet. He remains standing with @Damage[25[healing]] Hit Points.</p>"
-                },
-                "publication": {
-                    "license": "OGL",
-                    "remaster": false,
-                    "title": ""
-                },
-                "rules": [],
-                "slug": null,
-                "traits": {
-                    "value": []
-                }
-            },
-            "type": "action"
-        },
-        {
-            "_id": "V1CChK25RRaQ69eK",
+            "_id": "M5OGAZJ6RQFPjnry",
             "img": "systems/pf2e/icons/actions/Reaction.webp",
             "name": "Reactive Strike",
-            "sort": 1800000,
+            "sort": 2000000,
             "system": {
                 "actionType": {
                     "value": "reaction"
@@ -966,10 +1102,10 @@
             "type": "action"
         },
         {
-            "_id": "8j8XnaYrGnJofpPe",
+            "_id": "YHVXDt2xyo3oxk9t",
             "img": "systems/pf2e/icons/actions/Reaction.webp",
             "name": "Shield Block",
-            "sort": 1900000,
+            "sort": 2100000,
             "system": {
                 "actionType": {
                     "value": "reaction"
@@ -995,10 +1131,76 @@
             "type": "action"
         },
         {
-            "_id": "pBCGnIDqm2YAMHgl",
+            "_id": "xB8qYlHLdFIjDXDe",
+            "img": "systems/pf2e/icons/actions/FreeAction.webp",
+            "name": "Will Not Fall",
+            "sort": 2200000,
+            "system": {
+                "actionType": {
+                    "value": "free"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "defensive",
+                "deathNote": true,
+                "description": {
+                    "value": "<p><strong>Trigger</strong> The deific champion's Hit Points are reduced to 0 for the first time that day</p><hr /><p><strong>Effect</strong> The champion presses on, refusing to fail their god. They remain standing with 25 Hit Points.</p>"
+                },
+                "frequency": {
+                    "max": 1,
+                    "per": "day",
+                    "value": 1
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": ""
+                },
+                "rules": [],
+                "slug": null,
+                "traits": {
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "uxngjOx6sKf3l5tb",
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Viper's Fang",
+            "sort": 2300000,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><strong>Trigger</strong> A creature within your reach uses a manipulate or move action, makes a ranged attack, or leaves a square during a moving action it's using</p>\n<p><strong>Requirements</strong> You are a master with the affixed weapon</p><hr /><p>When you activate this resin-strengthened viper skull, make a melee Strike against the triggering creature.</p>\n<p>If you have Reactive Strike, you can activate the <em>viper's fang</em> as a free action.</p>\n<p>If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action.</p>\n<p>This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p><hr /><p>If you hit with this attack, the creature is exposed to viper fang venom.</p>\n<p><strong>Viper Fang Venom</strong> (poison)</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:32]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> @Damage[3d10[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.Enfeebled]{Enfeebled 1}.</p>"
+                },
+                "publication": {
+                    "license": "OGL",
+                    "remaster": false,
+                    "title": ""
+                },
+                "rules": [],
+                "slug": null,
+                "traits": {
+                    "value": [
+                        "concentrate"
+                    ]
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "Qah8iLjN3hok7tMx",
             "img": "systems/pf2e/icons/actions/TwoActions.webp",
-            "name": "Never Falter",
-            "sort": 2000000,
+            "name": "Will Not Falter",
+            "sort": 2400000,
             "system": {
                 "actionType": {
                     "value": "action"
@@ -1008,11 +1210,11 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>Obrimar declares his devotion to Asmodeus and the cause of obedience. He Strides, then makes a melee Strike. If the Strike hits an enemy, all allies within his champion's aura gain a +2 status bonus to attack rolls and saving throws against fear until the start of Obrimar's next turn.</p>"
+                    "value": "<p><strong>Effect</strong> The deific champion declares their devotion to their deity and their cause. They Stride, then make a melee Strike. If the Strike hits an enemy, all allies within their champion's aura gain a +2 status bonus to attack rolls and saving throws against fear until the start of the deific champion's next turn.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Will Not Falter]</p>"
                 },
                 "publication": {
-                    "license": "OGL",
-                    "remaster": false,
+                    "license": "ORC",
+                    "remaster": true,
                     "title": ""
                 },
                 "rules": [],
@@ -1024,7 +1226,10 @@
             "type": "action"
         }
     ],
-    "name": "Obrimar",
+    "name": "Vanda Spitelash",
+    "prototypeToken": {
+        "name": "Champion of Asmodeus"
+    },
     "system": {
         "abilities": {
             "cha": {
@@ -1066,19 +1271,19 @@
             }
         },
         "details": {
-            "blurb": "",
+            "blurb": "Variant deific champion of Iomedae ",
             "languages": {
                 "details": "",
                 "value": [
                     "common",
-                    "diabolic"
+                    "empyrean"
                 ]
             },
             "level": {
                 "value": 12
             },
             "privateNotes": "",
-            "publicNotes": "",
+            "publicNotes": "<p>The deific champion is the paragon of champions, representing the truest form of devotion and dedication to a deity.</p><hr /><p>Religions inspire devout individuals to uphold their tenets.</p>",
             "publication": {
                 "license": "ORC",
                 "remaster": true,
@@ -1117,7 +1322,7 @@
             "athletics": {
                 "base": 25
             },
-            "deception": {
+            "diplomacy": {
                 "base": 22
             },
             "intimidation": {

@@ -559,10 +559,10 @@
             "sort": 1100000,
             "system": {
                 "actionType": {
-                    "value": "action"
+                    "value": "free"
                 },
                 "actions": {
-                    "value": 1
+                    "value": null
                 },
                 "category": "offensive",
                 "description": {

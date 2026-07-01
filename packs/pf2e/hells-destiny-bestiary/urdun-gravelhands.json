@@ -608,7 +608,7 @@
                     "value": []
                 },
                 "bonus": {
-                    "value": 21
+                    "value": 18
                 },
                 "damageRolls": {
                     "8SRxHITnYEBdGIlS": {
@@ -1165,7 +1165,7 @@
             ],
             "speed": {
                 "otherSpeeds": [],
-                "value": 25
+                "value": 35
             }
         },
         "details": {
