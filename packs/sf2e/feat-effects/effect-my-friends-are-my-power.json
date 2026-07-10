@@ -1,10 +1,10 @@
 {
-    "_id": "9AYamzd9VOGXn8KM",
-    "img": "icons/magic/acid/dissolve-pool-bubbles.webp",
-    "name": "Effect: Acidic Spit",
+    "_id": "JCLJ0NqggwDuoCeQ",
+    "img": "icons/skills/melee/hand-grip-hammer-spiked-blue.webp",
+    "name": "Effect: My Friends Are My Power!",
     "system": {
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.sf2e.feats.Item.Acidic Spit]</p>\n<p>You gain weakness 5 to piercing damage.</p>"
+            "value": "<p>Granted by @UUID[Compendium.sf2e.feats.Item.My Friends Are My Power!]</p>\n<p>You gain a +1 circumstance bonus to your attack rolls.</p>"
         },
         "duration": {
             "expiry": "turn-end",
@@ -14,7 +14,7 @@
         },
         "fromSpell": false,
         "level": {
-            "value": 1
+            "value": 9
         },
         "publication": {
             "license": "ORC",
@@ -23,9 +23,12 @@
         },
         "rules": [
             {
-                "key": "Weakness",
-                "type": "piercing",
-                "value": 5
+                "key": "FlatModifier",
+                "selector": [
+                    "attack"
+                ],
+                "value": 1,
+                "type": "circumstance"
             }
         ],
         "start": {
