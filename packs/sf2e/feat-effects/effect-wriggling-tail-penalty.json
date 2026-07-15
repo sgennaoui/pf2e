@@ -1,20 +1,20 @@
 {
-    "_id": "JCLJ0NqggwDuoCeQ",
-    "img": "icons/skills/melee/hand-grip-hammer-spiked-blue.webp",
-    "name": "Effect: My Friends Are My Power!",
+    "_id": "jp73xHXJgb5GwQtP",
+    "img": "icons/commodities/biological/tail-spiked-green.webp",
+    "name": "Effect: Wriggling Tail (Penalty)",
     "system": {
         "description": {
-            "value": "<p>Granted by @UUID[Compendium.sf2e.feats.Item.My Friends Are My Power!]</p>\n<p>You gain a +1 circumstance bonus to your attack rolls.</p>"
+            "value": "<p>Granted by @UUID[Compendium.sf2e.feats.Item.Wriggling Tail]</p>\n<p>You take a –2 circumstance penalty on checks to Balance.</p>"
         },
         "duration": {
-            "expiry": "turn-end",
+            "expiry": "turn-start",
             "sustained": false,
-            "unit": "rounds",
+            "unit": "days",
             "value": 1
         },
         "fromSpell": false,
         "level": {
-            "value": 9
+            "value": 5
         },
         "publication": {
             "license": "ORC",
@@ -23,12 +23,16 @@
         },
         "rules": [
             {
+                "hideIfDisabled": true,
                 "key": "FlatModifier",
+                "predicate": [
+                    "action:balance"
+                ],
                 "selector": [
-                    "attack"
+                    "acrobatics"
                 ],
                 "type": "circumstance",
-                "value": 1
+                "value": -2
             }
         ],
         "start": {

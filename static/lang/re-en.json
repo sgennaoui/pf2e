@@ -9139,6 +9139,10 @@
                 "ForkTongued": {
                     "CriticalNote": "On a critical hit, the target takes persistent poison damage equal to the number of weapon damage dice.",
                     "VenomousJaws": "Venomous Jaws"
+                },
+                "VenomousCocktail": {
+                    "ChoiceLabel": "Choose a dose of poison or the grade of your weapon.",
+                    "PoisonDose": "Dose of Poison"
                 }
             },
             "VirtuosicPerformer": {
